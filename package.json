@@ -2,13 +2,13 @@
   "name": "richsteam-coffee",
   "version": "0.1.0",
   "description": "",
-  "main": "src/main.js",
+  "main": "src/init.js",
   "dependencies": {
     "steam-user": "^3.14.0"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node src/main.js"
+    "start": "coffeelint src/main.coffee && node src/init.js"
   },
   "author": "Alexandre Oliveira <alex@layerbnc.org>",
   "license": "GPL-3.0"
