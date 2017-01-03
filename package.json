@@ -4,6 +4,8 @@
   "description": "",
   "main": "src/init.js",
   "dependencies": {
+    "coffee-script": "^1.12.2",
+    "coffeelint": "^1.16.0",
     "steam-user": "^3.14.0"
   },
   "devDependencies": {},
