@@ -59,7 +59,10 @@ do ->
           
         else throw err
       else
-        client.logOn JSON.parse(data)
+        json = JSON.parse data
+        username = json.accountName
+
+        client.logOn json
 
   client.on 'loggedOn', (details) ->
     console.log "Logged into Steam as #{client.steamID.getSteam3RenderedID()},
