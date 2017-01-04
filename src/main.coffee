@@ -71,7 +71,7 @@ do ->
 
   # A login key can be used to deprecate password/steam auth login.
   client.on 'loginKey', (key) ->
-    console.debug "Got login key: #{key}"
+    console.log "Got login key: #{key}"
     writeOptions username, key
     return
 
